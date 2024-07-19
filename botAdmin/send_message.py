@@ -3,7 +3,7 @@ from telegram.error import TelegramError
 
 def send_image(image_urls: list[str], caption: str):
     print("Sending images to channel...")
-    bot = Bot(token='7251494460:AAHY81STrQvd7l3oMjQSZH7m1v3K4WVrxeA')
+    bot = Bot(token='')
     channel_id = '@Ringaiofficial'
 
     # Prepare media group
